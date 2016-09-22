@@ -1,2 +1,2 @@
-# B-Forces
-#hacing
+Senha com dígitos?
+Má ideia :)
